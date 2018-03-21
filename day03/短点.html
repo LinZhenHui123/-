@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body style="background: #000000;">
+		<canvas id="cv" width="500" height="500" style="background: #FFFFFF;"></canvas>
+	</body>
+	<script type="text/javascript">
+		var ocv=document.getElementById("cv");
+		var o2d=ocv.getContext("2d");
+		
+		
+		o2d.lineCap="butt";
+		o2d.lineWidth=20;
+		o2d.moveTo(200,200);
+		o2d.lineTo(200,300);
+		o2d.stroke();
+	
+	</script>
+</html>
